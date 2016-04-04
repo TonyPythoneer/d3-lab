@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transfer-money</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+<body>
+  <!-- container -->
+  <div class="container flex-box">
+    <!-- remitter -->
+    <div class="remitter flex-box white-border">
+      <div class="money flex-box flex-align-center"></div>
+      <div class="btns flex-box flex-align-center">
+        <button class="saveBtn" onclick="saveMoney()">Save Money</button>
+      </div>
+    </div>
+    <!-- /remitter -->
+    <!-- transfer -->
+    <div class="transfer flex-box flex-align-center">
+      <button class="transferBtn" onclick="doTransfer()">&rArr;</button>
+    </div>
+    <!-- /transfer -->
+    <!-- depositor -->
+    <div class="depositor flex-box white-border">
+      <div class="money flex-box flex-align-center"></div>
+    </div>
+    <!-- /depositor -->
+  </div>
+  <!-- /container -->
+
+  <!-- script -->
+  <script src="app.js"></script>
+</body>
+</html>

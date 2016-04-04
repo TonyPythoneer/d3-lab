@@ -1,0 +1,71 @@
+body {
+  font-size: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.remitter{
+  color: white;
+  flex-direction:column;
+  flex: 1 1 500px;
+}
+
+.depositor{
+  color: white;
+  flex-direction:column;
+  flex: 1 1 500px;
+}
+
+.transfer {
+  height: 200px;
+  flex: 0 0 50px;
+}
+
+
+.money {
+  height: 100px;
+}
+
+.btns {
+  height: 100px;
+}
+
+.btns > button {
+  margin: auto 5px;
+}
+
+
+/* flex */
+.flex-box {
+  display: -webkit-flex;
+  display:         flex;
+}
+
+.flex-align-center {
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+.white-border {
+  border: 1px solid white;
+}
+
+/* debug */
+.green-debug-border {
+  border: 1px solid green;
+}
+
+.blue-debug-border {
+  border: 1px solid blue;
+}
+
+.red-debug-border {
+  border: 1px solid red;
+}
